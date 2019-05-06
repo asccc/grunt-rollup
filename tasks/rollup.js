@@ -68,8 +68,8 @@ module.exports = (grunt) => {
                 footer,
                 intro,
                 outro,
-                sourcemap,
-                sourcemapFile,
+                sourceMap,
+                sourceMapFile,
                 interop,
                 extend,
             }) => ({
@@ -85,8 +85,8 @@ module.exports = (grunt) => {
                 footer,
                 intro,
                 outro,
-                sourcemap,
-                sourcemapFile,
+                sourcemap: sourceMap,
+                sourcemapFile: sourceMapFile,
                 interop,
                 extend,
             }))(options);
